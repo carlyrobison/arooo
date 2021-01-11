@@ -116,6 +116,8 @@ Note that the callback URL you enter in GitHub or Google must match the URL you 
 
 1. If you see the error `FATAL: role “postgres” does not exist`, if you are on OSX with brew run `/usr/local/Cellar/postgresql/<version>/bin/createuser -s postgres`
 2. Arooo depends on a fork of the `state_machine` gem, because the original gem is no longer maintained. Fork is at https://github.com/compwron/state_machine, original gem is https://rubygems.org/gems/state_machine_deuxito .
+3. If `bundle exec` fails to run, follow the instructions to add an executor, like Node.js
+4. **Rapidly evolving** If you are using an M1 chip, you'll probably have to run most/all of this project through Rosetta 2.
 
 ### Linting
 
